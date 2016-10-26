@@ -1,5 +1,6 @@
 var express               = require('express'),
     app                   = express(),
+    Color                 = require('./models/color');
     moment                = require('moment'),
     seedDB                = require('./seeds'),
     mongoose              = require('mongoose'),
@@ -19,12 +20,34 @@ app.use(methodOverride('_method')); //allows the use of PUT and DELETE instead o
 //=========================Restful routes
 
 //Index
+// INDEX show all campgrounds
+app.get('/colors', function(req, res){
+  //get all camps from db
+  Color.find({}, function(err, colors){
+    err ? console.log(err) : res.render('colors/index', {colors: colors});
+  });
+});
 
 //Root
+app.get('/', function(req, res){
+  res.redirect('/colors');
+});
 
 //New
+app.get('/colors/new', function (req, res) {
+  res.render('colors/new');
+});
 
 //Create
+app.post('/colors', function (req, res) {
+  //crete newColor variable with sanitized inputs
+  var name      = req.sanitize(req.body.name);
+  var hexcode   = req.sanitize(req.body.hexcode);
+  var newColor  = {name: name, hexcode: hexcode}
+  Color.create(newColor, function (err, newCreatedColor) {
+    err ? render('new') : res.redirect('/colors');
+  });
+});
 
 //Show
 

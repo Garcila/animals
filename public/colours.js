@@ -33,7 +33,7 @@ var colours = [
   },
   {
   name: "BlanchedAlmond",
-  hexcode: "#FFEBhexcode"
+  hexcode: "#FFEB"
   },
   {
   name: "Blue",
@@ -185,7 +185,7 @@ var colours = [
   },
   {
   name: "Gainsboro",
-  hexcode: "#DhexcodehexcodeC"
+  hexcode: "#DCDCDC"
   },
   {
   name: "GhostWhite",
@@ -221,7 +221,7 @@ var colours = [
   },
   {
   name: "IndianRed",
-  hexcode: "#hexcode5C5C"
+  hexcode: "#cd5C5C"
   },
   {
   name: "Indigo",
@@ -249,7 +249,7 @@ var colours = [
   },
   {
   name: "LemonChiffon",
-  hexcode: "#FFFAhexcode"
+  hexcode: "#FFFACD"
   },
   {
   name: "LightBlue",
@@ -309,7 +309,7 @@ var colours = [
   },
   {
   name: "LimeGreen",
-  hexcode: "#32hexcode32"
+  hexcode: "#32CD32"
   },
   {
   name: "Linen",
@@ -325,11 +325,11 @@ var colours = [
   },
   {
   name: "MediumAquaMarine",
-  hexcode: "#66hexcodeAA"
+  hexcode: "#66CDAA"
   },
   {
   name: "MediumBlue",
-  hexcode: "#0000hexcode"
+  hexcode: "#0000CD"
   },
   {
   name: "MediumOrchid",
@@ -433,7 +433,7 @@ var colours = [
   },
   {
   name: "Peru",
-  hexcode: "#hexcode853F"
+  hexcode: "#CD853F"
   },
   {
   name: "Pink",
@@ -497,7 +497,7 @@ var colours = [
   },
   {
   name: "SlateBlue",
-  hexcode: "#6A5Ahexcode"
+  hexcode: "#6A5ACD"
   },
   {
   name: "SlateGray",
@@ -557,7 +557,7 @@ var colours = [
   },
   {
   name: "YellowGreen",
-  hexcode: "#9Ahexcode32"
+  hexcode: "#9ACD32"
   }
   ]
 

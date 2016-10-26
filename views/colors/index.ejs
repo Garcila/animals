@@ -1,0 +1,36 @@
+<% include ../partials/header %>
+
+<div id='down' class="container main">
+  <table class="table table-hover table-responsive">
+    <thead class="thead-inverse">
+      <tr>
+        <th> Name     </th>
+        <th> Hex-Code </th>
+        <th> Color </th>
+        <th> Edit </th>
+        <th> Delete </th>
+      </tr>
+    </thead>
+    <% colors.forEach(function(color){ %>
+      <tbody>
+        <tr>
+          <td> <%= color.name %>     </td>
+          <td> <%= color.hexcode %>  </td>
+          <td>
+            <div class='show-color' style="background-color:<%= color.hexcode %>">
+
+            </div>
+          </td>
+          <td > <i class="fa fa-pencil-square-o" aria-hidden="true"></i> </td>
+          <td> <i class="fa fa-trash-o" aria-hidden="true"></i> </td>
+        </tr>
+      </tbody>
+    <% }); %>
+  </table>
+</div>
+
+
+
+
+
+<% include ../partials/footer %>

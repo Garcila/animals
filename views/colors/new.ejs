@@ -1,0 +1,17 @@
+<% include ../partials/header %>
+
+<div class="container main">
+  <form class="form" action="/colors" method="POST">
+    <div class="form-group">
+      <label for="newColor">Color Name</label>
+      <input type="text" class="form-control" name="name" placeholder="Color Name" required >
+    </div>
+    <div class="form-group">
+      <label for="newColor">Hex Code</label>
+      <input type="text" class="form-control" name="hexcode" placeholder="Enter Hexadecimal Code" required>
+    </div>
+    <button type="submit" class="btn btn-danger">Add Color</button>
+  </form>
+</div>
+
+<% include ../partials/footer %>

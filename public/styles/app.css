@@ -1,0 +1,41 @@
+.container.main{
+  margin-top: 6em;
+}
+
+.navbar-brand {
+  background-color: #c61b1b;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fa-pencil-square-o {
+  border: 1px solid #a0c3d5;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 4px;
+  color: #1c97ac;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.fa-trash-o {
+  border: 1px solid #d5a1a0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 4px;
+  color: #ff0101;
+  width: 1.5em;
+  height: 1.5em;
+}
+
+td:nth-child(n+2) {
+  text-align: center;
+}
+
+.show-color {
+  border: 1px solid #e2e6e8;
+  border-radius: 50%;
+  color: #1c97ac;
+  width: 1.7em;
+  height: 1.7em;
+}

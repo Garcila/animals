@@ -23,6 +23,7 @@
     "express-sanitizer": "^1.0.1",
     "method-override": "^2.3.6",
     "moment": "^2.15.2",
-    "mongoose": "^4.6.5"
+    "mongoose": "^4.6.5",
+    "normalize.css": "^5.0.0"
   }
 }
